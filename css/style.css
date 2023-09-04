@@ -1,0 +1,55 @@
+
+
+
+
+/* Media defenido con la nueva especificación */
+@media (width <= 640px){
+    *{
+        border: 1px solid greenyellow;
+    }
+
+    header{
+        border: 1px solid darkblue;
+    }
+
+    .menu{
+        /* flex-wrap: wrap; */
+        display: block;
+        box-sizing: content-box;
+        border: 1px solid red;
+        position: relative;
+        
+    }
+
+    #logoMenu{
+        position: absolute;
+        left: 5%;
+        margin-top: 0.5rem;
+        
+    }
+    
+    #burgerMenu{
+        position: absolute;
+        float: right;
+        right: 7%;
+        height: 1.9rem;
+        margin-top: 0.5rem;
+
+        
+    }
+
+    
+    
+    .princpal{
+        /* flex-wrap: wrap; */
+        box-sizing: content-box;
+        justify-content: center;
+    }
+
+    .hPadel{
+        max-width: 100%;
+        margin: 1rem;
+        padding: 0.75rem;
+    }
+    
+}
